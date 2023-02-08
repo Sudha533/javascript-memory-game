@@ -1,0 +1,33 @@
+*{
+box-sizing:border-box;
+}
+h1{
+    text-align:center;
+}
+#grid{
+    max-width:550px;
+    margin:auto;
+    display: grid;
+    background-color: rgb(255,255,255);
+    grid-template-columns: auto auto auto auto;
+    gap:10px;
+    
+}
+#grid > .card {
+    height:150px;
+    width:150px;
+    background-color:red;
+    padding:20px;
+    color: red;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:5rem;
+    cursor:pointer;
+}
+#grid > .card-flipped {
+    background-color: #ffffff;
+    border : 2px solid red;
+    color:red;
+}
